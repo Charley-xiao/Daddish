@@ -32,15 +32,16 @@ So, let's start now!
 
 1. [Alphabet](##Alphabet)
 2. [Verb](##Verb)
-   - Construction
-   - Conjugation
+   - [Construction](##Verb###Construction)
+   - [Person&Number](##Verb###Person&Number)
+   - [Time&Type](##Verb###Time&Type)
 3. [Noun](##Noun)
-   - Construction
-   - Grammar Case
+   - [Construction](##Noun###Construction)
+   - [Article](##Noun###Article)
+   - [Case](##Noun###Case)
 4. [Adjective&Adverb](##Adjective&Adverb)
-   - Adjective
-   - Adverb
-   - Compound Structure
+   - [Basic Structure](##Adjective&Adverb###Basic&nbsp;Structure)
+   - [Compound Structure](##Adjective&Adverb###Compound&nbsp;Structure)
 5. [Preposition](##Preposition)
 5. [Not-Attributive-Clause](##Not-Attributive-Clause)
 5. [Texts](##Texts)
@@ -250,6 +251,8 @@ The vocative case is a grammatical case which is used for a noun that identifies
 
 
 ## Adjective&Adverb
+
+### Basic Structure
 
 In Daddish, there are two types of adjectives: **restrictive** and **non-restrictive**. The original form of a restrictive adjective ends with `tornё`, while a non-restrictive one just ends with `nё`.
 
