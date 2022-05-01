@@ -1,0 +1,1 @@
+window.alert("FBI WARNING:\nThe following page may cause confusion, dizziness, and even sudden death. Proceed with extreme caution!");
