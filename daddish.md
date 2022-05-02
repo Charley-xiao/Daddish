@@ -1,6 +1,6 @@
 # Daddish
 
-Last Modified: 2022/05/01
+Last Modified: 2022/05/02
 
 ## Welcome
 
@@ -10,7 +10,7 @@ Welcome to the tutorial of **Daddish**, a constructed language created by [me](h
 
 ## Introduction
 
-Daddish is the official language of Dad Republic (Daddish: *Konharmonёšost Dadad*), Earth 0xffffffff. Daddish was invented by a linguist, **Vasily Xiao** (Daddish: *Šjao Vasinёo*), and was promoted nationwide in Dad Republic since its birth.
+Daddish is the official language of Dad Republic (Daddish: *Konharmonёšost Dadad*), Earth 0xffffffff. Daddish was invented by a linguist, **Vasily Xiao** (Daddish: *Šjao Vasinёo*), and has been promoted nationwide in Dad Republic since its birth.
 
 
 
@@ -32,19 +32,24 @@ So, let's start now!
 
 1. [Alphabet](##Alphabet)
 2. [Verb](##Verb)
-   - [Construction](##Verb###Construction)
-   - [Person&Number](##Verb###Person&Number)
-   - [Time&Type](##Verb###Time&Type)
+   - Construction
+   - Person&Number
+   - Time&Type
 3. [Noun](##Noun)
-   - [Construction](##Noun###Construction)
-   - [Article](##Noun###Article)
-   - [Case](##Noun###Case)
+   - Construction
+   - Article
+   - Case
 4. [Adjective&Adverb](##Adjective&Adverb)
-   - [Basic Structure](##Adjective&Adverb###Basic&nbsp;Structure)
-   - [Compound Structure](##Adjective&Adverb###Compound&nbsp;Structure)
+   - Basic Structure
+   - Compound Structure
 5. [Preposition](##Preposition)
-5. [Not-Attributive-Clause](##Not-Attributive-Clause)
-5. [Texts](##Texts)
+6. [Not-Attributive-Clause](##Not-Attributive-Clause)
+   - Active Verb-adjective
+   - Passive Verb-adjective
+7. [Not-Object-Clause](##Not-Object-Clause)
+8. [Not-Adverbial-Clause](##Not-Adverbial-Clause)
+9. [Text](##Text)
+10. [Dictionary](##Dictionary)
 
 
 
@@ -146,6 +151,12 @@ Now that you have learned all the basic verb conjugation, we can make some sente
 
 **sjad** (*self*)+ **vi** (*move*)+ **maščin** (*machine*)+ **ih** (accusative)= **sjadvimaščinih**(*car*, accusative)
 
+### Voice
+
+For passive voice, a `-sja/sje/sji/sjo/sju` is attached to the conjugated verb. The vowel depends on the root.
+
+For active voice, this is not needed.
+
 
 
 ## Noun
@@ -218,7 +229,7 @@ The accusative case is used to mark a direct object, or after a few prepositions
 
 #### Instrumental
 
-The instrumental case shows the meaning of "by means of" or "by use of", or, in passive voice, shows the agent of an action.
+The instrumental case shows the meaning of "by means of" or "by use of", or, in passive voice, shows the implementer of an action.
 
 - Pišifiš **penehm**. *I'm writing with a pen.*
 
@@ -271,7 +282,7 @@ $$
 
 Non-restrictive:
 
-- Prinscipl Vzimvidostod **uroktoknёi Einsteinehm ku šokčotomnёi fizikmestostod** *Principle of Relativity, which was brought up by Einstein and shocked the field of physics*
+- Prinscipl Vzimvidostod **uroktoknёi Einsteinehm ku šokotomnёi fizikmestostod** *Principle of Relativity, which was put forward by Einstein and shocked the field of physics*
 
 The adherent adjuncts are connected with `ku`, which means `and`. `al` can be also used, which means `or`.
 
@@ -308,19 +319,179 @@ The adherent adjuncts are connected with `kutor` instead of `ku`, and `altor` in
 |     sin     |       *within*       |     Acc.      |
 |     oht     |      *without*       |     Gen.      |
 |    vasi     |     *thanks to*      |     Acc.      |
-|             |                      |               |
-|             |                      |               |
-|             |                      |               |
-|             |                      |               |
-|             |                      |               |
-|             |                      |               |
-|             |                      |               |
 
 
 
 ## Not-Attributive-Clause
 
-Breaking news: there is no such thing as an "attributive clause" in Daddish. The meaning of the clause is expressed by compound structure, which consists of special adjectives derived from nouns and other stuffs.
+**Breaking news: there is no such thing as an "attributive clause" in Daddish.** The meaning of the clause is expressed by compound structure, which consists of special adjectives derived from verbs and other stuffs.
 
 ### Active Verb-adjective
 
+An active verb-adjective is used to modify a noun that is the implementer of an action. An active verb-adjective is constructed on the basis of a verb.
+$$
+\rm Active\ Verb-adjective=[conjugated\ verb]+(tor)+nё
+$$
+For example:
+
+- **šokč** (*to shock*)\> **šokotom** (*shock*, third person, past)\> **šokotomnё** (*which shocked*)
+
+### Passive Verb-adjective
+
+A passive verb-adjective is used to modify a noun that is the patient of an action. A passive verb-adjective is also constructed on the basis of a verb, but has two different structures:
+$$
+\rm [conjugated\ verb]+(tor)+nё
+$$
+or
+$$
+\rm [verb\ without\ suffix\ or\ č]+tok+nё
+$$
+The first one gives the exact information of the action, while the second doesn't emphasize the time or person. And remember, the implementer of the action should be in instrumental case.
+
+For example:
+
+- **urokč** (*to put forward*)\> **uroktoknё** (*put forward*, passive)> **uroktoknё Einsteinehm** (*put forward by Einstein*)
+- **urokč** (*to put forward*)\> **urokotomsjonё** (an object *was put forward*)\> **urokotomsjonё Einsteinehm** (an object *put forward by Einstein*)
+
+
+
+## Not-Object-Clause
+
+
+
+## Not-Adverbial-Clause
+
+
+
+## Text
+
+
+
+## Dictionary
+
+| Daddish |      English       | Daddish |     English      |
+| :-----: | :----------------: | :-----: | :--------------: |
+|         |         I          |         |      drink       |
+|         |    you (sing.)     |         |       eat        |
+|         |         he         |         |       bite       |
+|         |        she         |         |       suck       |
+|         |        this        |         |       spit       |
+|         |        that        |         |      vomit       |
+|         |        here        |         |       blow       |
+|         |       there        |         |     breathe      |
+|         |        who         |         |      laugh       |
+|         |        what        |         |       see        |
+|         |        when        |         |       hear       |
+|         |       where        |         |  know (a fact)   |
+|         |        how         |         |      think       |
+|         |        not         |         |      smell       |
+|         |        all         |         |       fear       |
+|         |        many        |         |      sleep       |
+|         |        some        |         |       live       |
+|         |        few         |         |       kill       |
+|         |       other        |         |       die        |
+|         |        one         |         |      fight       |
+|         |        two         |         |       hunt       |
+|         |       three        |         |       hit        |
+|         |        four        |         |       cut        |
+|         |        five        |         |      split       |
+|         |        six         |         |       stab       |
+|         |       seven        |         |     scratch      |
+|         |       eight        |         |       dig        |
+|         |        nine        |         |       swim       |
+|         |        ten         |         |       fly        |
+|         |       eleven       |         |       walk       |
+|         |       twelve       |         |       come       |
+|         |      thirteen      |         |       lie        |
+|         |      fourteen      |         |       sit        |
+|         |      fifteen       |         |      stand       |
+|         |      sixteen       |         |       turn       |
+|         |     seventeen      |         |       fall       |
+|         |      eighteen      |         |       hold       |
+|         |      nineteen      |         |     squeeze      |
+|         |       twenty       |         |       rub        |
+|         |        big         |         |       wash       |
+|         |        long        |         |       wipe       |
+|         |        wide        |         |       pull       |
+|         |       thick        |         |       push       |
+|         |       heavy        |         |      throw       |
+|         |       short        |         |       tie        |
+|         |       small        |         |       sew        |
+|         |       narrow       |         |      count       |
+|         |        thin        |         |       say        |
+|         |       woman        |         |       sing       |
+|         |     man (male)     |         |       play       |
+|         | man (human being)  |         |      float       |
+|         |        kid         |         |       flow       |
+|         |        wife        |         |      freeze      |
+|         |      husband       |         |      swell       |
+|         |       mother       |         |       sun        |
+|         |       father       |         |       moon       |
+|         |       animal       |         |       star       |
+|         |        fish        |         |      water       |
+|         |        bird        |         |       rain       |
+|         |       hound        |         |      river       |
+|         |       louse        |         |       lake       |
+|         |       snake        |         |       sea        |
+|         |        worm        |         |       salt       |
+|         |        tree        |         |      stone       |
+|         |       forest       |         |       sand       |
+|         |       stick        |         |       dust       |
+|         |       fruit        |         |      earth       |
+|         |        seed        |         |      cloud       |
+|         |        leaf        |         |       fog        |
+|         |        root        |         |       sky        |
+|         | bark (from a tree) |         |       wind       |
+|         |       flower       |         |       snow       |
+|         |       grass        |         |       ice        |
+|         |        rope        |         |      smoke       |
+|         |        skin        |         |       fire       |
+|         |        meat        |         |      ashes       |
+|         |       blood        |         |       burn       |
+|         |        bone        |         |       road       |
+|         |      fat (n.)      |         |     mountain     |
+|         |        egg         |         |       red        |
+|         |        horn        |         |      green       |
+|         |        tail        |         |      yellow      |
+|         |      feather       |         |      white       |
+|         |        hair        |         |      black       |
+|         |        head        |         |      golden      |
+|         |        ear         |         |       gold       |
+|         |        eye         |         |      silver      |
+|         |        nose        |         |       iron       |
+|         |       mouth        |         |      steel       |
+|         |       tooth        |         |      night       |
+|         |       tongue       |         |       day        |
+|         |     fingernail     |         |    afternoon     |
+|         |        foot        |         |       noon       |
+|         |        leg         |         |     evening      |
+|         |        knee        |         |       year       |
+|         |        hand        |         |      month       |
+|         |        wing        |         |       week       |
+|         |       belly        |         |       hour       |
+|         |        guts        |         |      minute      |
+|         |        neck        |         |      second      |
+|         |        back        |         |       warm       |
+|         |       breast       |         |       cold       |
+|         |       heart        |         |       full       |
+|         |       liver        |         |       new        |
+|         |        old         |         |       pen        |
+|         |        good        |         |      eraser      |
+|         |        bad         |         |       desk       |
+|         |       rotten       |         |      table       |
+|         |       dirty        |         |      chair       |
+|         |      straight      |         |      stool       |
+|         |       round        |         |      toilet      |
+|         |       sharp        |         |      class       |
+|         |        dull        |         |    classroom     |
+|         |       smooth       |         | grade (1,2,3...) |
+|         |        wet         |         |      score       |
+|         |        dry         |         |       goal       |
+|         |      correct       |         |      dream       |
+|         |        near        |         |   achievement    |
+|         |        far         |         |     factory      |
+|         |       right        |         |     airport      |
+|         |        left        |         |     station      |
+|         |        name        |         |       hall       |
+|         |         if         |         |    cafeteria     |
+|         |       pencil       |         |      house       |

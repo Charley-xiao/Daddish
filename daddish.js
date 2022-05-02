@@ -1,4 +1,4 @@
-window.alert("FBI WARNING:\nThe following page may cause confusion, dizziness, and even sudden death. Proceed with extreme caution!");
+//window.alert("FBI WARNING:\nThe following page may cause confusion, dizziness, and even sudden death. Proceed with extreme caution!");
 function sleep(time){
     return new Promise((resolve) => setTimeout(resolve, time));
 }

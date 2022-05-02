@@ -1,0 +1,3 @@
+<title>Daddish | Tutorial</title>
+<script src="daddish.js"></script>
+<link rel="shortcut icon" sizes="57x57" href="icon.ico"/>
