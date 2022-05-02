@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Daddish | Pratice</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="keywords" content="Daddish"/>
+    <meta name="author" content="charleyxiao"/>
+    <script src="jquery-3.5.1.js"></script>
+    <script src="practice.js"></script>
+    <link href="practice.css" rel="stylesheet" type="text/css"/>
+	<link rel="shortcut icon" sizes="57x57" href="icon.ico"/>
+</head>
+<body id="body">
+    <div id="box">
+        <div class="chars">D</div>
+        <div class="chars">A</div>
+        <div class="chars">D</div>
+        <div class="chars">D</div>
+        <div class="chars">I</div>
+        <div class="chars">S</div>
+        <div class="chars">H</div>
+        <div class="ll A"></div>
+        <div class="ll N"></div>
+        <div class="ll I"></div>
+        <div class="ll P"></div>
+        <div class="ll L"></div>
+        <div class="ll E"></div>
+        <div class="ll X"></div>
+        <div class="pcov"></div>
+    </div>
+	<div id="clk">
+        <div onclick="change()">
+            <div id="draw-border">
+                <button>Enter</button><br/>
+                <button onclick="loadprocess()">Load Process</button><br/>
+                <button onclick="initprocess()">Reset Process</button>
+            </div>
+        </div>
+        <center><button onclick="gotomainsite()">Main Site</button><button onclick="settingsshow()">Settings</button></center><br/>
+    </div>
+    <h1><center><span>IZIK</span>&nbsp;<span>DADNЁI</span></center></h1>
+    <div id="page-aft" style="display: none;">
+        <br/><br/><br/><br/><br/>
+        <center><button onclick="ShowMemorize()">Learn New Words</button></center><br/>
+        <center><button onclick="ShowReview()">Review</button></center><br/>
+    </div>
+    <div id="MemorizeWords" style="display: none;">
+        <br/><br/><br/>
+        <center><p style="color: #4361ee;font-size: 30px;">Choose the number of words you want to learn:</p></center>
+        <br/>
+        <center><button onclick="setnumber(10)">10</button></center>
+        <center><button onclick="setnumber(15)">15</button></center>
+        <center><button onclick="setnumber(20)">20</button></center>
+        <center><button onclick="setnumber(30)">30</button></center>
+        <center><button onclick="setnumber(40)">40</button></center>
+        <center><button onclick="inputset()">Input a number</button></center>
+    </div>
+    <div id="Review" style="display: none;">
+        <br/><br/><br/><br/><br/><br/>
+        <center><button onclick="start2()">Start Review</button></center><br/>
+    </div>
+    <div id="mainmem" style="display: none;">
+        <br/><br/><br/><br/>
+        <center><p id="question" style="color: #4361ee;font-size: 30px;"></p></center>
+        <br/>
+        <center><button id="ans1" onclick="checkanswer(1)"></button></center><br/>
+        <center><button id="ans2" onclick="checkanswer(2)"></button></center><br/>
+        <center><button id="ans3" onclick="checkanswer(3)"></button></center><br/>
+        <center><button id="ans4" onclick="checkanswer(4)"></button></center><br/>
+        <center><p style="color: #4361ee;font-size: 10px;" id="showprocess"></p>
+    </div>
+    <div id="Final" style="display: none;">
+        <br/><br/><br/><br/><br/><br/>
+        <center><p id="finalshow" style="color: #4361ee;font-size: 30px;"></p></center><br/>
+        <center><button id="finalshow" style="color: #4361ee;font-size: 15px;" onclick="showwas()">Wrong Answers</button></center><br/>
+        <p id="was" style="display: none;"></p>
+    </div>
+    <div id="verb" style="display: none;">
+    </div>
+    <div id="mainrev" style="display: none;">
+        <br/><br/><br/><br/>
+        <center><p id="revq" style="color: #4361ee;font-size: 30px;"></p></center>
+        <br/>
+        <center><button id="q1" onclick="welldone()">I remember</button></center><br/>
+        <center><button id="q2" onclick="toobad()">I don't remember</button></center><br/>
+    </div>
+    <div id="another" style="display: none;">
+        <center><button id="button_in_another" onclick="makeanother()">Review</button></center>
+        <div id="contained" style="display: none;">
+            <br/><br/><br/><br/>
+            <center><p id="contained_question" style="color: #4361ee;font-size: 30px;"></p></center>
+            <br/>
+            <center><button id="contained_ans1" onclick="containedcheckanswer(1)"></button></center><br/>
+            <center><button id="contained_ans2" onclick="containedcheckanswer(2)"></button></center><br/>
+            <center><button id="contained_ans3" onclick="containedcheckanswer(3)"></button></center><br/>
+            <center><button id="contained_ans4" onclick="containedcheckanswer(4)"></button></center><br/>
+        </div>
+    </div>
+    <div id="review_final" style="display: none;">
+        <center><p style="color: #4361ee;font-size: 30px;">Congratulations! You've done the review!</p></center><br/>
+        <center><p style="color: #4361ee;font-size: 30px;">Pro tip: you can reset your process.</p></center><br/>
+    </div>
+    <div id="settings" style="display: none;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);">
+        <button onclick="muzyku(this)">Sound: On</button><br/>
+        <button onclick="gotoclk()">To Main Page</button>
+    </div>
+    <div id="retry">
+        <br/>
+        <center><img src="refresh.png" onclick="refresh_page()" style="position: absolute;top: 2%;left: 2%;width: 30px;height: 30px;" /></center><br/>
+        <p style="position: absolute;top: 7%;left: 2%;color: blue;cursor: help;">Version：20220502</p>
+        <p style="position: absolute;top: 12%;left: 2%;color: blue;cursor: pointer;" onclick="changetheme();"><u>Change Theme</u></p>
+    </div>
+</body>
+</html>

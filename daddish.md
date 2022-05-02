@@ -14,6 +14,13 @@ Daddish is the official language of Dad Republic (Daddish: *Konharmonёšost Dad
 
 
 
+## Resources
+
+- [Memorizing Daddish Words](https://daddish.vercel.app/practice)
+- [Daddish Culture, History, Art, Literature Etc](https://daddish.vercel.app/wiki)
+
+
+
 ## Features
 
 Why should you learn Daddish? Well, for fun, of course! Apart from that, Daddish has some amazing features, including:

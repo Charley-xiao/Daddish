@@ -5,7 +5,7 @@ function sleep(time){
 async function easter_egg(){
     console.clear();
     for(var i=0;;i++){
-        console.log("RUN! WHILE YOU STILL CAN!");
+        console.log("Person "+i+": RUN! WHILE YOU STILL CAN!");
         await sleep(5000);
     }
     await sleep(5000);
